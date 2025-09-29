@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "xpython",
+      "display_name": "Python 3.13 (XPython)",
+      "language": "python"
+    },
+    "language_info": {
+      "name": ""
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "a1d67630-5cff-49e3-ad24-968de7897d60",
+      "cell_type": "code",
+      "source": "{\n  \"978-84-376-0494-7\": {\n    \"título\": \"Cien años de soledad\",\n    \"autor\": [\n      \"Gabriel García Márquez\"\n    ],\n    \"géneros\": [\n      \"Realismo mágico\",\n      \"Novela histórica\"\n    ]\n  },\n  \"978-84-204-1625-5\": {\n    \"título\": \"Don Quijote de la Mancha\",\n    \"autor\": [\n      \"Miguel de Cervantes Saavedra\"\n    ],\n    \"géneros\": [\n      \"Novela de caballería\",\n      \"Satira\"\n    ]\n  },\n  \"978-84-339-7962-7\": {\n    \"título\": \"La casa de los espíritus\",\n    \"autor\": [\n      \"Isabel Allende\"\n    ],\n    \"géneros\": [\n      \"Realismo mágico\",\n      \"Saga familiar\"\n    ]\n  },\n  \"978-84-06-12345-6\": {\n    \"título\": \"El amor en los tiempos del cólera\",\n    \"autor\": [\n      \"Gabriel García Márquez\"\n    ],\n    \"géneros\": [\n      \"Novela romántica\",\n      \"Realismo mágico\"\n    ]\n  }\n}",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}

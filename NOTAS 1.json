@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "xpython",
+      "display_name": "Python 3.13 (XPython)",
+      "language": "python"
+    },
+    "language_info": {
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "version": "3.13.1"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "94f244a4-6c0f-4049-9994-5a24e2cc801d",
+      "cell_type": "code",
+      "source": "#van a crear una lista vacia con su nombre y van a agregar 5 elementos con input:\n#(nombre, preparatoria, lugar de residencia, edad, carrera)\n\nlista_nombres = []\n\nprint(\"Lista de nombres\")\n#agregar nombres\nproducto1 = input(\" Agrega el primer producto: \")\nlista_nombres.append(producto1)\n\n#agregar un producto\nproducto2 = input(\"Agrega el segundo producto: \")\nlista_nombres.append(producto2)\n\nproducto3 = input(\"Agrega el tercer producto: \")\nlista_nombres.append(producto3)\n\nproducto4 = input(\"Agrega el cuarto producto: \")\nlista_nombres.append(producto4)\n\nproducto5 = input(\"Agrega el quinto producto: \")\nlista_nombres.append(producto5)\n\nprint(\"\\n📌 Tu lista de nombres es:\")\nfor producto in lista_nombres:\n    print(f\"- {producto}\")\n    \nprint(\"\\n✅ ¡Lista creada con éxito!\")\n#https://www.webfx.com/tools/emoji-cheat-sheet/",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Lista de nombres\n"
+        },
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": " Agrega el primer producto:  producto 1\nAgrega el segundo producto:  pan\nAgrega el tercer producto:  huevos\nAgrega el cuarto producto:  tortilla\nAgrega el quinto producto:  maiz\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "\n📌 Tu lista de nombres es:\n- producto 1\n- pan\n- huevos\n- tortilla\n- maiz\n\n✅ ¡Lista creada con éxito!\n"
+        }
+      ],
+      "execution_count": 1
+    },
+    {
+      "id": "dd66acd5-452a-45a9-89ec-1dd20c4ab631",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
