@@ -67,9 +67,9 @@ class Carrera:
 
 class Materia:
     def __init__(self, nombre: str, carrera: Carrera, calificacion_final: float = None):
-        self.nombre = nombre
+        self.nombre = nombre                   # Nombre de la materia
         self.carrera = carrera                 # Instancia de Carrera
-        self.calificacion_final = calificacion_final
+        self.calificacion_final = calificacion_final # Calificación final 
 
     def __repr__(self):
         return f'Materia("{self.nombre}", carrera="{self.carrera.nombre}")'
@@ -77,7 +77,7 @@ class Materia:
 
 class Profesor:
     def __init__(self, nombre: str, materia: Materia):
-        self.nombre = nombre
+        self.nombre = nombre                   # Nombre del profesor
         self.materia = materia                 # Materia que imparte
 
     def registra_calificacion(self, alumno: Alumno, calificacion: float):
